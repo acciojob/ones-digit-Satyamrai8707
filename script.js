@@ -1,9 +1,6 @@
 function onesDigit(n) {
-
-	
-	  return Number(n[n.length - 1]);
-
-  // your code here
+  n = String(n);          
+  return Number(n[n.length - 1]);
 }
 
 // Do not change the code below
