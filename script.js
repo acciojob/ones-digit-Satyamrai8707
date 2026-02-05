@@ -1,4 +1,8 @@
 function onesDigit(n) {
+
+	
+	  return Number(n[n.length - 1]);
+
   // your code here
 }
 
